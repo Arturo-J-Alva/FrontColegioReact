@@ -1,0 +1,11 @@
+/* aux */
+export const OCULTAR_HEADER_FOOTER = 'ocular_header_footer'
+export const MOSTRAR_HEADER_FOOTER = 'mostrar_header_footer'
+export const SAVE_LOGIN = 'save_login'
+export const SAVE_TIPO = 'save_tipo' 
+export const THEMES_OF_USER = 'themes_of_user' 
+export const IS_LOADING = 'is_loading' 
+export const TOKEN_404 = 'token_no_valido' 
+export const STATUS_BUY_BOOK = 'status_buy_book' 
+export const CONT_SDK_BUTTON = 'cont_sdk_button' 
+export const NOTIFICATIONS = 'notifications'

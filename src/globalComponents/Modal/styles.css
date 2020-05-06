@@ -1,0 +1,103 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Modal__container {
+    position: relative;
+    top: 10rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 40%;
+  }
+
+  .Modal__container_pago {
+    position: relative;
+    top: 10rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 35%;
+  }
+
+  .Modal__container_VPresent {
+    position: relative;
+    top: 10rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 54%;
+  }
+
+  .imgmodal {
+    width:15%;
+    margin-bottom:1rem
+  }
+
+  .Modal__container_loading {
+    position: relative;
+    top: 10rem;
+    /* background-color: #404040; */
+    padding: 1rem;
+    width: 10%;
+  }
+  
+  .Modal__close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    background-color: #F5F5F5;
+    padding: 0.5rem 1rem;
+  }
+
+  .video-container {
+
+  }
+
+  @media (max-width: 767px){
+    .Modal__container {
+      position: relative;
+      top: 10rem;
+      background-color: #ffffff;
+      margin-right: 1.4rem;
+      padding: 1rem;
+      width: 95%;
+    }
+
+    .Modal__container_loading {
+      position: relative;
+      top: 10rem;
+      /* background-color: #ffffff; */
+      margin-right: 1.4rem;
+      padding: 1rem;
+      width: 10%;
+    }
+
+    .Modal__container_pago {
+      position: relative;
+      top: 10rem;
+      background-color: #ffffff;
+      padding: 1rem;
+      width: 70%;
+    }
+
+    .Modal__container_VPresent {
+      position: relative;
+      top: 10rem;
+      background-color: #ffffff;
+      padding: 1rem;
+      width: 95%;
+    }
+
+    .imgmodal {
+      width:25%;
+      margin-bottom:1rem
+    }
+  }
