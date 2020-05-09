@@ -6,6 +6,7 @@ import Leccion from './componentes/leccion'
 const OBTENER_LECCIONES_POR_MODULO = gql`
     query obtenerLeccionesPorModulo($id:ID!){
   obtenerLeccionesPorModulo(id:$id){
+    id
     nombre
     imagen
     creado
